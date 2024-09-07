@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt  # Optional if you have dependencies
 
       - name: Run Python script to generate zip
-        run: python scripts/generate_zip.py
+        run: python src/generate_zip.py
 
       - name: Upload zip file as artifact
         uses: actions/upload-artifact@v3
