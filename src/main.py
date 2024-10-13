@@ -13,7 +13,7 @@ for x in range(1,13):
 def mes_a_mes(mes_f):
     mes = mes_f[0]
     f = mes_f[1]
-    time.sleep(1)
+    time.sleep(2)
     print(mes,f)
 
 
